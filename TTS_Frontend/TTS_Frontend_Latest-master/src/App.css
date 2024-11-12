@@ -1,0 +1,186 @@
+/* Global Styles */
+body {
+  /* background-color: #55a845; */
+  /* Dark gray background */
+  color: #ffffff;
+  /* White text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+label {
+  color: #ffffff;
+  /* White for headings and labels */
+}
+
+button {
+  background-color: #55a845;
+  /* Green button background */
+  color: #ffffff;
+  /* White text for button */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #469438;
+  /* Slightly darker green on hover */
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="file"] {
+  background-color: #ffffff;
+  /* White input background */
+  color: #262626;
+  /* Dark gray text inside inputs */
+  border: 1px solid #55a845;
+  /* Green border */
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="file"] {
+  padding: 5px;
+}
+
+audio {
+  display: block;
+  margin-top: 20px;
+}
+
+.container-wrapper {
+  background-image: url('./assets/Login-Bg.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  margin: 0px auto !important;
+  /* background-color: #262626; */
+  /* background: url('https: //media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e47236bi7zwdp8lop5lc9v8gslnpwznf9z0z016x20j&ep=v1_gifs_related&rid=giphy.gif&ct=g'); */
+  /* Dark gray background for the container */
+  background-color: rgba(243, 241, 241, 0.28) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  /* Slight shadow */
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+select,
+textarea,
+input {
+  font-size: 16px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.navbar {
+  background-color: #262626;
+  /* Green background */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  /* White logo text */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  /* White link text */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #262626;
+  /* Dark gray on hover */
+}
+
+
+
+.auth-container p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+
+}
+
+.auth-section button {
+  background-color: #55a845;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-left: 10px;
+  /* Space between each button */
+  margin-right: 10px;
+  /* Adds a bit of space between the buttons */
+  transition: background-color 0.3s ease;
+}
+
+.auth-section button:hover {
+  background-color: #4a933d;
+}
+
+.auth-section button:active {
+  background-color: #3d7b33;
+}
+
+.auth-container div {
+  text-align: center;
+  margin-bottom: 30px;
+}
